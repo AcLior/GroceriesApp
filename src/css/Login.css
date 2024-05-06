@@ -1,0 +1,39 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-form-container {
+  width: 350px; /* Adjust the width as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.email-container,
+.password-container {
+  margin-bottom: 20px; /* Add margin between input sections */
+}
+
+.login-container form .email-container label,
+.login-container form .password-container label {
+  display: block;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+/* Optional: Style the submit button */
+.login-form-container Button {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+@media (max-width: 400px) {
+  .login-form-container {
+    margin: 15px;
+  }
+}
